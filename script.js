@@ -16,7 +16,7 @@ const MASTER_MAP = [
     {
         "groupName": "Studies",
         "items":[
-            {"name": "Linux Academy", "shortcutKey": "q", "url": "Linuxacademy.com"},
+            {"name": "Linux Academy", "shortcutKey": "q", "url": "https://www.Linuxacademy.com"},
             {"name": "TED", "shortcutKey": "w", "url": "https://google.com/?q=TED"},
             {"name": "Mongo University", "shortcutKey": "w", "url": "https://google.com/?q=/MongoDBu"}
         ]
@@ -26,13 +26,13 @@ const MASTER_MAP = [
         "items":[
             {"name": "JIRA", "shortcutKey": "a", "url": "https://google.com/?q=a"},
             {"name": "Github", "shortcutKey": "s", "url": "https://google.com/?q=s"},
-            {"name": "Outlook", "shortcutKey": "d", "url": "outlook.com"}
+            {"name": "Outlook", "shortcutKey": "d", "url": "https://www.outlook.com"}
         ]
     },
     {
         "groupName": "Personal",
         "items":[
-            {"name": "Reddit", "shortcutKey": "z", "url": "old.reddit.com"},
+            {"name": "Reddit", "shortcutKey": "z", "url": "https://old.reddit.com"},
             {"name": "Navy Federal", "shortcutKey": "c", "url": "https://google.com/?q=Navy+Federal"},
             {"name": "Jellyfin", "shortcutKey": "c", "url": "http://localhost:8096"}
         ]
