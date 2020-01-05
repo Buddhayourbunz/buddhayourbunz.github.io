@@ -1,4 +1,4 @@
-const NAME = "John";
+const NAME = "Jonah";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -16,25 +16,26 @@ const MASTER_MAP = [
     {
         "groupName": "Studies",
         "items":[
-            {"name": "Item A", "shortcutKey": "q", "url": "https://google.com/?q=q"},
-            {"name": "Item B", "shortcutKey": "w", "url": "https://google.com/?q=w"},
-            {"name": "Item C", "shortcutKey": "e", "url": "https://google.com/?q=e"}
+            {"name": "Linux Academy", "shortcutKey": "q", "url": "Linuxacademy.com"},
+            {"name": "TED", "shortcutKey": "w", "url": "https://google.com/?q=TED"},
+            {"name": "Mongo University", "shortcutKey": "w", "url": "https://google.com/?q=/MongoDBu"},
         ]
     },
     {
         "groupName": "Work",
         "items":[
-            {"name": "Item D", "shortcutKey": "a", "url": "https://google.com/?q=a"},
-            {"name": "Item E", "shortcutKey": "s", "url": "https://google.com/?q=s"},
-            {"name": "Item F", "shortcutKey": "d", "url": "https://google.com/?q=d"}
+            {"name": "JIRA", "shortcutKey": "a", "url": "https://google.com/?q=a"},
+            {"name": "Github", "shortcutKey": "s", "url": "https://google.com/?q=s"},
+            {"name": "Outlook", "shortcutKey": "d", "url": "outlook.com"}
         ]
     },
     {
         "groupName": "Personal",
         "items":[
-            {"name": "Item I", "shortcutKey": "z", "url": "https://google.com/?q=z"},
-            {"name": "Item J", "shortcutKey": "x", "url": "https://google.com/?q=x"},
-            {"name": "Item K", "shortcutKey": "c", "url": "https://google.com/?q=c"}
+            {"name": "Reddit", "shortcutKey": "z", "url": "old.reddit.com"},
+            {"name": "Youtube", "shortcutKey": "x", "url": "youtube.com"},
+            {"name": "Navy Federal", "shortcutKey": "c", "url": "https://google.com/?q=Navy+Federal"}
+            {"name": "Jellyfin", "shortcutKey": "c", "url": "http://localhost:8096"}
         ]
     }
 ]
