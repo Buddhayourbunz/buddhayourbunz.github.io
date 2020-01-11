@@ -16,7 +16,7 @@ const MASTER_MAP = [
     {
         "groupName": "Studies",
         "items":[
-            {"name": "Linux Academy", "shortcutKey": "q", "url": "https://google.com/?q=Linux Academy"},
+            {"name": "Linux Academy", "shortcutKey": "q", "url": "https://linuxacademy.com"},
             {"name": "TED", "shortcutKey": "w", "url": "https://google.com/?q=TED"},
             {"name": "Mongo University", "shortcutKey": "w", "url": "https://google.com/?q=MongoDBu"}
         ]
@@ -24,9 +24,9 @@ const MASTER_MAP = [
     {
         "groupName": "Work",
         "items":[
-            {"name": "JIRA", "shortcutKey": "a", "url": "https://google.com/?q=JIRA"},
-            {"name": "Github", "shortcutKey": "s", "url": "https://google.com/?q=github"},
-            {"name": "Outlook", "shortcutKey": "d", "url": "https://google.com/?q=outlook"}
+            {"name": "JIRA", "shortcutKey": "a", "url": "https://buddhayourbunz.atlassian.net/secure/BrowseProjects.jspa?selectedProjectType=software&utm_source=www.atlassian.com"},
+            {"name": "Github", "shortcutKey": "s", "url": "https://github.com"},
+            {"name": "Outlook", "shortcutKey": "d", "url": "https://outlook.com"}
         ]
     },
     {
