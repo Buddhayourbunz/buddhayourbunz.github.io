@@ -134,11 +134,11 @@ a {
   
   .input {
     position: absolute;
-    top: 20px;
-    right: 10px;
+    top: -20px;
+    left: -20px;
     box-sizing: border-box;
     width: 0px;
-    height: 92px;
+    height: px;
     padding: 0 20px;
     outline: none;
     font-size: 18px;
@@ -171,8 +171,8 @@ a {
     height: 80px;
     background: #62d474;
     border-radius: 50%;
-    right: 45px;
-    top: 10px;
+    left: -20px;
+    top: -20px;
     cursor: pointer;
     text-align: center;
     line-height: 80px;
@@ -183,10 +183,10 @@ a {
   
   .input.active {
     width: 350px;
-    right: 100px;
+    left: 100px;
   }
   
   .btn.animate {
     transform: rotate(-360deg);
-    right: 100px;
+    left: 100px;
   }
