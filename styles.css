@@ -135,10 +135,10 @@ a {
   .input {
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: 10px;
     box-sizing: border-box;
     width: 0px;
-    height: 63px;
+    height: 92px;
     padding: 0 20px;
     outline: none;
     font-size: 18px;
