@@ -1,4 +1,4 @@
-const NAME = "Jonah";
+;const NAME = "Jonah";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -116,3 +116,8 @@ function main(){
 }
 
 main();
+
+$(".btn").click(function(){
+    $(".input").toggleClass("active").focus;
+    $(this).toggleClass("animate");
+    $(".input").val("");})
