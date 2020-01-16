@@ -1,4 +1,4 @@
-;const NAME = "Jonah";
+const NAME = "Jonah";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -16,25 +16,25 @@ const MASTER_MAP = [
     {
         "groupName": "Studies",
         "items":[
-            {"name": "Linux Academy", "shortcutKey": "q", "url": "https://linuxacademy.com"},
-            {"name": "TED", "shortcutKey": "w", "url": "https://google.com/?q=TED"},
-            {"name": "Mongo University", "shortcutKey": "w", "url": "https://google.com/?q=MongoDBu"}
+            {"name": "Linux Academy", "shortcutKey": "z", "url": "https://linuxacademy.com"},
+            {"name": "TED", "shortcutKey": "t", "url": "https://google.com/?q=TED"},
+            {"name": "MongoDB University", "shortcutKey": "m", "url": "https://google.com/?q=MongoDB+U"}
         ]
     },
     {
         "groupName": "Work",
         "items":[
-            {"name": "JIRA", "shortcutKey": "a", "url": "https://buddhayourbunz.atlassian.net/secure/BrowseProjects.jspa?selectedProjectType=software&utm_source=www.atlassian.com"},
-            {"name": "Github", "shortcutKey": "s", "url": "https://github.com"},
-            {"name": "Outlook", "shortcutKey": "d", "url": "https://outlook.com"}
+            {"name": "JIRA", "shortcutKey": "j", "url": "https://buddhayourbunz.atlassian.net/secure/BrowseProjects.jspa?selectedProjectType=software&utm_source=www.atlassian.com"},
+            {"name": "Google", "shortcutKey": "g", "url": "https://google.com/?q"},
+            {"name": "GitHub", "shortcutKey": "h", "url": "https://github.com/"}
         ]
     },
     {
         "groupName": "Personal",
         "items":[
-            {"name": "Reddit", "shortcutKey": "z", "url": "https://google.com/?q=old+reddit"},
-            {"name": "Navy Federal", "shortcutKey": "c", "url": "https://google.com/?q=Navy+Federal"},
-            {"name": "Jellyfin", "shortcutKey": "c", "url": "http://localhost:8096"}
+            {"name": "Outlook", "shortcutKey": "o", "url": "https://outlook.com"},
+            {"name": "Navy Federal", "shortcutKey": "p", "url": "https://www.navyfederal.org"},
+            {"name": "Jellyfin", "shortcutKey": "q", "url": "https://google.com/?q=c"}
         ]
     }
 ]
@@ -114,3 +114,5 @@ function main(){
     setupGroups();
     document.addEventListener('keyup', shortcutListener, false);
 }
+
+main();
