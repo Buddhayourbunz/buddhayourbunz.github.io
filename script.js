@@ -115,7 +115,8 @@ function main(){
     document.addEventListener('keyup', shortcutListener, false);
 }
 
-main();
+//below this is the button code
+
 
 $(".btn").click(function(){
     $(".input").toggleClass("active").focus;
