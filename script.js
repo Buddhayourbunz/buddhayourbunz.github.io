@@ -114,11 +114,3 @@ function main(){
     setupGroups();
     document.addEventListener('keyup', shortcutListener, false);
 }
-
-//below this is the button code
-
-
-$(".btn").click(function(){
-    $(".input").toggleClass("active").focus;
-    $(this).toggleClass("animate");
-    $(".input").val("");})
