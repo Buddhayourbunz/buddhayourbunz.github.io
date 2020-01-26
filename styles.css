@@ -115,7 +115,6 @@ a {
   80% { opacity: 0.3; }
   100%   { opacity: 0; }
   
-<img src="assets/FTB.jpg" id="bg" alt="">
 #bg {
   position: fixed; 
   top: 0; 
