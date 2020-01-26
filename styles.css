@@ -40,7 +40,13 @@ body {
 }
 
 #content {
-  text-align: center;
+  text-align: center;html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 }
 
 #credits {
@@ -108,4 +114,11 @@ a {
   20% { opacity: 0.3; }
   80% { opacity: 0.3; }
   100%   { opacity: 0; }
+}
+html { 
+  background: url(assets/FTB.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
