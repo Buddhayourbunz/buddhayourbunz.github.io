@@ -34,7 +34,7 @@ const MASTER_MAP = [
         "items":[
             {"name": "Outlook", "shortcutKey": "o", "url": "https://outlook.com"},
             {"name": "Navy Federal", "shortcutKey": "p", "url": "https://www.navyfederal.org"},
-            {"name": "Jellyfin", "shortcutKey": "q", "url": "localhost:8096/"}
+            {"name": "Jellyfin", "shortcutKey": "q", "url": "http://localhost:8096/web/index.html#!/home.html"}
         ]
     }
 ]
