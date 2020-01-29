@@ -4,7 +4,7 @@
 :root {
   --bg-color: #223030;
   --text-color: #dddddd;
-  --bg-image: url("assets/FTB.jpg");
+  --bg-image: url("assets/bg.jpg");
   --SHORTCUT_TIMEOUT: 1.5s;
 }
 body {
@@ -115,7 +115,7 @@ a {
   80% { opacity: 0.3; }
   100%   { opacity: 0; }
 .bg{
-  background-image:url('asset/FTB.jpg');
+  background-image:url('asset/bg.jpg');
   background-size:100% 100%;
    z-index:-100;
 
