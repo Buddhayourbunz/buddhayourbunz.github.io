@@ -33,7 +33,7 @@ const MASTER_MAP = [
         "groupName": "Personal",
         "items":[
             {"name": "Outlook", "shortcutKey": "o", "url": "https://outlook.com"},
-            {"name": "Navy Federal", "shortcutKey": "p", "url": "https://www.navyfederal.org"},
+            {"name": "Personal Capital", "shortcutKey": "p", "url": "https://home.personalcapital.com"},
             {"name": "Jellyfin", "shortcutKey": "q", "url": "http://localhost:8096/web/index.html#!/home.html"}
         ]
     }
