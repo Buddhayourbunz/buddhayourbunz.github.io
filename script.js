@@ -24,7 +24,7 @@ const MASTER_MAP = [
     {
         "groupName": "Work",
         "items":[
-            {"name": "JIRA", "shortcutKey": "j", "url": "https://buddhayourbunz.atlassian.net/secure/BrowseProjects.jspa?selectedProjectType=software&utm_source=www.atlassian.com"},
+            {"name": "ToDoist", "shortcutKey": "j", "url": "https://todoist.com/app"},
             {"name": "Google", "shortcutKey": "g", "url": "https://google.com/?q"},
             {"name": "GitHub", "shortcutKey": "h", "url": "https://github.com/"}
         ]
